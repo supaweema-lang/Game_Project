@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://b471p41wvslqn"]
+
+[ext_resource type="Texture2D" uid="uid://cxwys7plsn2wr" path="res://Main_game1.jpg" id="1_g7mqn"]
+[ext_resource type="Script" uid="uid://drm6d1fg35l4k" path="res://main_game_1.gd" id="2_x81v5"]
+
+[node name="Main 1" type="Control" unique_id=1884147944]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MainGame1" type="Sprite2D" parent="." unique_id=1604985921]
+position = Vector2(961, 551)
+texture = ExtResource("1_g7mqn")
+script = ExtResource("2_x81v5")
